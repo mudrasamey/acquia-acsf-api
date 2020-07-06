@@ -25,7 +25,7 @@ php api-call.php --api_call=verify --docroot=[APPLICATION_ID].prod --realm=ace
 *Cron - Add New Scheduled Jobs*
 
 ```
-php ./api-call.php --api_call=crons-add --docroot=eesjordan.prod --realm=ace --file=/Users/shane.jordan/Downloads/scheduledjobs.csv
+php ./api-call.php --api_call=crons-add --docroot=docroot.prod --realm=ace --file=/Users/someuser/Downloads/scheduledjobs.csv
 
 CSV format example (command,schedule,name,server_id):
 
